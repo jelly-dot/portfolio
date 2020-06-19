@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+
+}
+
+#container{
+
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+  grid-template-rows:repeat(5,1fr);
+  margin: auto;
+  width: 100%;
+  max-height: 100%;
+  grid-gap:0 0;
+  font-size: 2rem;
+
+}
+
+.home{
+  position: absolute;
+  left:20px;
+  top:20px;
+
+}
+
+  .tile{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .tile img{
+    width: 450px;
+    height: auto;
+  }
+
+  .tilea{
+    width: inherit;
+    height: auto;
+  }
+
+
+
+
+
+
+
+
+.pre1{
+width: 100%;
+height: 100vh;
+background-image: url('preview/ux.png');
+background-size: cover;
+background-position: center;}
+
+.pre2{
+width: inherit;
+height: 100vh;
+background-image: url('preview/ir.png');
+background-size: cover;
+background-position: center;}
+
+.pre3{
+
+background-image: url('preview/layout.jpg');
+background-size: cover;
+background-position: center;}
+
+.pre4{
+width: inherit;
+height: 100vh;
+background-image: url('preview/coi.png');
+background-size: cover;
+background-position: bottom;}
+
+.pre5 {
+width: inherit;
+height: 100vh;
+background-image: url('preview/hasta.png');
+background-size: cover;
+background-position: bottom;}

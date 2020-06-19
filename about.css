@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@300;400;500&display=swap');
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  color: white;
+  font-family: 'Noto Sans KR', sans-serif;
+  overflow: hidden;
+}
+
+a{
+  text-decoration: none;
+}
+
+#container{
+
+  display: grid;
+  grid-template-columns:repeat(2,1fr);
+  margin: auto;
+  width: 100%;
+  max-height: 100%;
+  grid-gap:0 0;
+  font-size: 1.2rem;
+  font-weight: 300;
+  background-image: url('worklogo/background.png');
+  background-size: cover;
+
+}
+
+
+
+  .nav{
+    margin:20px;
+    height: 50px;
+  }
+    .nav img{
+      width:40px;
+      height: auto;
+    }
+    .nav a:hover img{
+      opacity: 0.4;
+      transition: 0.7s;
+    }
+
+  .explain{
+
+    text-align: center;
+    margin-top: 3rem;
+
+
+  }
+  .explain img{
+    width:200px;
+    height: auto;
+  }
+
+  .explain p{
+    margin-top: 4rem;
+    width:85%;
+    line-height: 2.2;
+    margin-left: 40px;
+
+  }
+
+  span{
+    font-weight: 500;
+  }
+
+.ability{
+    margin-top:120px;
+    height: auto;
+}
+.contact{
+  height: auto;
+  text-align: center;
+  margin-top: 60px;
+  font-weight: 500;
+  line-height: 2.5;
+}
+
+.insta a:hover p{
+  color: red;
+  transition: 0.6s;
+}

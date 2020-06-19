@@ -1,0 +1,52 @@
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+#container{
+  max-width: 100%;
+}
+
+.work{
+margin-top: 4rem;
+text-align: right;
+margin-right: 4rem;
+}
+
+
+.work img{
+  width:100px;
+
+}
+
+.logo{
+  display: inline-block;
+}
+
+.logo:hover{
+  opacity: 0.4;
+  transition: .7s;
+}
+.w{
+  margin-right: 20px;
+}
+
+.about{
+  width: 100%;
+  margin-top: 4.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.path{
+  width: 95%;
+  stroke-dasharray: 20;
+  animation: dash 9s linear infinite;
+}
+
+@keyframes dash {
+to {
+stroke-dashoffset: 1000;
+}
+}
